@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.image.Image?>
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="751.0" style="-fx-background-color: #85A1F2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.toki.jailbase_projekt.HelloController">
+    <children>
+        <Label alignment="CENTER" layoutX="213.0" layoutY="31.0" prefHeight="53.0" prefWidth="325.0" text="JAIL BASE" textFill="#e1dcdc">
+            <font>
+                <Font name="Tahoma Bold" size="42.0" />
+            </font>
+        </Label>
+        <Label layoutX="126.0" layoutY="170.0" prefHeight="36.0" prefWidth="116.0" text="Choose State">
+            <font>
+                <Font name="Tahoma Bold" size="14.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="stateAuswahl" layoutX="126.0" layoutY="206.0" prefWidth="150.0" />
+        <Label layoutX="126.0" layoutY="355.0" prefHeight="36.0" prefWidth="116.0" text="Choose Jail">
+            <font>
+                <Font name="Tahoma Bold" size="14.0" />
+            </font>
+        </Label>
+        <ComboBox layoutX="126.0" layoutY="392.0" prefWidth="150.0" />
+      <TextArea editable="false" layoutX="392.0" layoutY="150.0" prefHeight="113.0" prefWidth="234.0" text="New York&#10;Jails (Items per State)&#10;Population: (Year)&#10;" />
+      <TextArea editable="false" layoutX="392.0" layoutY="336.0" prefHeight="113.0" prefWidth="234.0" text="New York&#10;NYC (City)&#10;Population: (Year)&#10;Jailname&#10;Items (Persons per View (9))&#10;" />
+      <ImageView fx:id="inmate_Bild1" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+    </children>
+</Pane>
