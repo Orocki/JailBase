@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="989.0" prefWidth="1372.0" style="-fx-background-color: #85A1F2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.toki.jailbase_projekt.InmatesController">
+   <children>
+      <Label alignment="CENTER" layoutX="524.0" layoutY="36.0" prefHeight="53.0" prefWidth="325.0" text="JAIL BASE" textFill="#e1dcdc">
+         <font>
+            <Font name="Tahoma Bold" size="42.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="inmate_Bild" fitHeight="163.0" fitWidth="233.0" layoutX="37.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name" layoutX="37.0" layoutY="288.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD" layoutX="37.0" layoutY="324.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges" layoutX="37.0" layoutY="360.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field" layoutX="54.0" layoutY="396.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild1" fitHeight="163.0" fitWidth="233.0" layoutX="302.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name1" layoutX="302.0" layoutY="288.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD1" layoutX="302.0" layoutY="324.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges1" layoutX="302.0" layoutY="360.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field1" layoutX="319.0" layoutY="396.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild2" fitHeight="163.0" fitWidth="233.0" layoutX="572.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name2" layoutX="572.0" layoutY="288.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD2" layoutX="572.0" layoutY="324.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges2" layoutX="572.0" layoutY="360.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field2" layoutX="589.0" layoutY="396.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild3" fitHeight="163.0" fitWidth="233.0" layoutX="829.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name3" layoutX="829.0" layoutY="288.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD3" layoutX="829.0" layoutY="324.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges3" layoutX="829.0" layoutY="360.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field3" layoutX="846.0" layoutY="396.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild4" fitHeight="163.0" fitWidth="233.0" layoutX="1079.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name4" layoutX="1079.0" layoutY="288.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD4" layoutX="1079.0" layoutY="324.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges4" layoutX="1079.0" layoutY="360.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field4" layoutX="1096.0" layoutY="396.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild5" fitHeight="163.0" fitWidth="233.0" layoutX="37.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name5" layoutX="37.0" layoutY="707.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD5" layoutX="37.0" layoutY="743.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges5" layoutX="37.0" layoutY="779.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field5" layoutX="54.0" layoutY="815.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild6" fitHeight="163.0" fitWidth="233.0" layoutX="302.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name6" layoutX="302.0" layoutY="707.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD6" layoutX="302.0" layoutY="743.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges6" layoutX="302.0" layoutY="779.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field6" layoutX="319.0" layoutY="815.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild7" fitHeight="163.0" fitWidth="233.0" layoutX="572.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name7" layoutX="572.0" layoutY="707.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD7" layoutX="572.0" layoutY="743.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges7" layoutX="572.0" layoutY="779.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field7" layoutX="589.0" layoutY="815.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild8" fitHeight="163.0" fitWidth="233.0" layoutX="829.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name8" layoutX="829.0" layoutY="707.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD8" layoutX="829.0" layoutY="743.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges8" layoutX="829.0" layoutY="779.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field8" layoutX="846.0" layoutY="815.0" prefHeight="107.0" prefWidth="216.0" />
+
+      <ImageView fx:id="inmate_Bild9" fitHeight="163.0" fitWidth="233.0" layoutX="1079.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="inmate_Name9" layoutX="1079.0" layoutY="707.0" prefHeight="36.0" prefWidth="233.0" text="Name">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_BookD9" layoutX="1079.0" layoutY="743.0" prefHeight="36.0" prefWidth="233.0" text="Booking date">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="inmate_Charges9" layoutX="1079.0" layoutY="779.0" prefHeight="36.0" prefWidth="100.0" text="Charges">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="charges_field9" layoutX="1096.0" layoutY="815.0" prefHeight="107.0" prefWidth="216.0" />
+      
+   </children>
+</Pane>
